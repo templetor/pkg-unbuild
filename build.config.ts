@@ -10,6 +10,7 @@ export default defineBuildConfig({
   },
   entries: ['src/main.ts'],
   rollup: {
+    inlineDependencies: true,
     output: {
       format: 'iife',
     },
