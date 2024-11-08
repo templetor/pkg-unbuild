@@ -14,7 +14,7 @@ export default defineBuildConfig({
       format: 'iife',
     },
     esbuild: {
-      globalName: 'ph_globalName',
+      globalName: 'ph_reponame',
       minify: true,
     },
   },
