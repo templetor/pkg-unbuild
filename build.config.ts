@@ -12,10 +12,6 @@ export default defineBuildConfig({
   rollup: {
     emitCJS: true,
     inlineDependencies: true,
-    output: {
-      format: 'esm',
-      assetFileNames: 'main[extname]',
-    },
     esbuild: {
       globalName: 'ph_reponame',
       minify: true,
